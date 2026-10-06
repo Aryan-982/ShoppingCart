@@ -4,3 +4,9 @@ __pycache__/
 .pytest_cache/
 .DS_Store
 *.log
+*.pt
+*.jpg
+*.jpeg
+*.png
+sample.jpg
+fruit.jpg

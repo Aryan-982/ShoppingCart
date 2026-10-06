@@ -95,6 +95,7 @@ def main():
         print(f"WARNING: model has no class for {missing} - they will never be detected.")
 
     seen, counted, cart = {}, set(), {}
+    print(f"Source mode: {args.source}")
 
     if args.source == "image":
         if not args.image:

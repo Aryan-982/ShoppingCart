@@ -20,6 +20,8 @@
 
     python main.py --source image --image sample.jpg
 
+This mode is useful when the room is dark or when you want to test the cart logic on a saved product photo before switching back to the webcam.
+
 The model (yolo11n.pt, ~6 MB) downloads automatically on first run (needs internet once).
 
 Options: `--cam 1` `--imgsz 320` `--conf 0.5` `--model path` `--source image --image sample.jpg`
