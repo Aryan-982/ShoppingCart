@@ -72,3 +72,5 @@ snacks, etc. Those need a custom-trained model (e.g. Roboflow dataset + `yolo tr
 
 Barcode scanning (pyzbar), RFID, voice (pyttsx3), SQLite product DB, "remove item"
 gesture/key, checkout + UPI QR, Tkinter/PyQt GUI, custom-trained model for Indian products.
+
+Progress check 1 - verified on 2026-10-07 00:24:49.
