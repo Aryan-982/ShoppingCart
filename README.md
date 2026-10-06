@@ -24,6 +24,10 @@ This mode is useful when the room is dark or when you want to test the cart logi
 
 The bill is rendered inside the OpenCV window, and the full image remains visible on the left side while the cart panel sits on the right.
 
+Quick validation command:
+
+    python -m unittest test_cart_logic.py
+
 The model (yolo11n.pt, ~6 MB) downloads automatically on first run (needs internet once).
 
 Options: `--cam 1` `--imgsz 320` `--conf 0.5` `--model path` `--source image --image sample.jpg`
