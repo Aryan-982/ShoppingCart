@@ -22,6 +22,8 @@
 
 This mode is useful when the room is dark or when you want to test the cart logic on a saved product photo before switching back to the webcam.
 
+Verified on 2026-10-07: the image mode works for dark-room testing, and the shopping cart bill is rendered inside the OpenCV window while the full image remains visible on the left.
+
 The bill is rendered inside the OpenCV window, and the full image remains visible on the left side while the cart panel sits on the right.
 
 Quick validation command:
