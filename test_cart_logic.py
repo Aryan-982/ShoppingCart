@@ -14,6 +14,11 @@ class CartLogicTest(unittest.TestCase):
         add_detections_to_cart(cart, ["apple", "apple"], source="camera")
         self.assertEqual(cart, {})
 
+    def test_duplicate_items_are_counted_once_per_detection_list(self):
+        cart = {}
+        add_detections_to_cart(cart, ["banana", "banana"], source="image")
+        self.assertEqual(cart, {"banana": 2})
+
 
 if __name__ == "__main__":
     unittest.main()

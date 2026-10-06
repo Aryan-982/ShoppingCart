@@ -37,6 +37,8 @@ def draw_cart(frame, cart):
         cost = PRICES[name] * qty
         total += cost
         lines.append(f"{name.title()} x{qty}  {CURRENCY}{cost}")
+    if not lines[1:]:
+        lines.append("No items yet")
     lines.append(f"TOTAL {CURRENCY}{total}")
 
     h, w = frame.shape[:2]
